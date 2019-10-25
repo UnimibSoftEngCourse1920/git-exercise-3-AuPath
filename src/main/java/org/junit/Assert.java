@@ -29,11 +29,61 @@ public class Assert {
     }
     
     
-    static public <T> void assertGreaterThan(T o1, T o2, java.util.Comparator<T> comparator)
+<<<<<<< HEAD
+    
+=======
+
+	static public <T> void assertGreaterThan(T o1, T o2, java.util.Comparator<T> comparator)
     {
         if(comparator.compare(o1, o2) < 1)
             fail("o1 is not greater than o2");
     }
+
+	
+    static public void assertGreaterThan(int n1, int n2)
+    {
+        if(n1 < n2)
+            fail("n1 is not greater than n2");
+            
+    }
+    
+    static public void assertGreaterThan(float n1, float n2)
+    {
+        if(n1 < n2)
+            fail("n1 is not greater than n2");
+    }
+    
+    static public void assertGreaterThan(double n1, double n2)
+    {
+        if(n1 < n2)
+            fail("n1 is not greater than n2");
+    }
+    
+    static public void assertGreaterThan(long n1, long n2)
+    {
+        if(n1 < n2)
+            fail("n1 is not greater than n2");
+    }
+    
+    static public void assertGreaterThan(short n1, short n2)
+    {
+        if(n1 < n2)
+            fail("n1 is not greater than n2");
+    }
+    
+    static public void assertGreaterThan(byte n1, byte n2)
+    {
+        if(n1 < n2)
+            fail("n1 is not greater than n2");
+    }
+    
+    static public void assertGreaterThan(char n1, char n2)
+    {
+        if(n1 < n2)
+            fail("n1 is not greater than n2");
+    }  
+    
+>>>>>>> greater-primitives
 
     /**
      * Asserts that a condition is true. If it isn't it throws an

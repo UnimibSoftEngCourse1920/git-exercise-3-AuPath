@@ -244,6 +244,20 @@ public class AssertionTest {
         Object[] objects2 = new Object[]{element};
         assertArrayEquals("equal", objects1, objects2);
     }
+    
+    @Test
+    public void greaterThan()
+    {
+        assertGreaterThan(Byte.MAX_VALUE, Byte.MIN_VALUE);
+        assertGreaterThan(Character.MAX_VALUE, Character.MIN_VALUE);
+        assertGreaterThan(Double.MAX_VALUE, Double.MIN_VALUE); 
+        assertGreaterThan(Integer.MAX_VALUE, Integer.MIN_VALUE);
+        assertGreaterThan(Float.MAX_VALUE, Float.MIN_VALUE);
+        assertGreaterThan(Long.MAX_VALUE, Long.MIN_VALUE);
+        assertGreaterThan(Short.MAX_VALUE, Short.MIN_VALUE);
+    }
+    
+    
 
     
     @Test
