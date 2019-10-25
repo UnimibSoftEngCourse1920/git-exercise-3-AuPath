@@ -250,7 +250,7 @@ public class AssertionTest {
         assertEquals("abc", "abc");
         assertEquals(true, true);
         assertEquals((byte) 1, (byte) 1);
-        assertEquals('a', 'a');
+        assertEquals('a', 'a'); 
         assertEquals((short) 1, (short) 1);
         assertEquals(1, 1); // int by default, cast is unnecessary
         assertEquals(1l, 1l);
